@@ -1,0 +1,85 @@
+body {
+    background-color: #f3eae3
+}
+
+.container {
+    height: 500px;
+    width: 645px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 380px;
+    border-radius: 3%;
+    background-color: white;
+
+}
+
+.titulo {
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+    letter-spacing: 10px;
+}
+
+img {
+    height: 500px;
+    border-radius: 3% 0% 0% 3%;
+    margin-left: -52px;
+}
+
+.texto {
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+
+.texto2 {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(100, 96, 96);
+}
+
+.precio {
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+.precio h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+    color: #427c66;
+}
+.precio p{
+    margin-top: 60px;
+    text-decoration-line: line-through;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(134, 132, 132);
+}
+
+.btn{
+    background-color: #1a4031;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+    margin: auto;
+    transition: background, width 4s ease-in-out, 2s;
+}
+
+.icon{
+    width: 25px;
+    height: 20px;
+    margin-right: 5%;
+   
+}
+
+.btn:hover{
+    background-color: rgb(69, 128, 108);
+    border-radius: 6px;
+}
